@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: horizontal;
+    align-content: center;
+    justify-content: center;
+}
+
+#board {
+    border: solid 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    background-color: blue;
+}
+  
+td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    color: blue;
+    border: 5px, outset, slategray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    justify-content: auto;
+}
+  
+.msg {
+    padding: 1em;
+}
+  
+.msg.ok {
+    color: white;
+    background-color: green;
+}
+  
+.msg.err {
+    color: white;
+    background-color: lightcoral;
+}
